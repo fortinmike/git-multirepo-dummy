@@ -1,2 +1,4 @@
-git-multirepo-dummy-dep1 git@github.com:fortinmike/git-multirepo-dummy-dep1.git master
-git-multirepo-dummy-dep2 git@github.com:fortinmike/git-multirepo-dummy-dep2.git master
+# Specify dependencies here:
+# [DirectoryName], [RemoteUrl], [BranchName]
+git-multirepo-dummy-dep1, git@github.com:fortinmike/git-multirepo-dummy-dep1.git, master
+git-multirepo-dummy-dep2, git@github.com:fortinmike/git-multirepo-dummy-dep2.git, master
