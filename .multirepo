@@ -1,4 +1,11 @@
-# Specify dependencies here (ideally by running "multi init" or "multi add"):
-# [UUID] [DirectoryName], [RemoteUrl], [BranchName]
-11cc2d61-82fa-45cc-933d-77e8888e4a93, ../git-multirepo-dummy-dep1/, git@github.com:fortinmike/git-multirepo-dummy-dep1.git, master
-2441cb38-1339-4aef-ae51-259b96382840, ../git-multirepo-dummy-dep2/, git@github.com:fortinmike/git-multirepo-dummy-dep2.git, master
+---
+- !ruby/object:MultiRepo::ConfigEntry
+  id: e38243c4-7ebc-42db-b377-0ae0f9936833
+  path: ../git-multirepo-dummy-dep1/
+  url: git@github.com:fortinmike/git-multirepo-dummy-dep1.git
+  branch: master
+- !ruby/object:MultiRepo::ConfigEntry
+  id: 1c69ff1d-7da4-40f6-bf79-030eb1d81e37
+  path: ../git-multirepo-dummy-dep2/
+  url: git@github.com:fortinmike/git-multirepo-dummy-dep2.git
+  branch: master
