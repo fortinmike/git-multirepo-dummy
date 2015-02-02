@@ -1,11 +1,11 @@
 ---
 - !ruby/object:MultiRepo::LockEntry
   name: git-multirepo-dummy-dep1
-  id: e38243c4-7ebc-42db-b377-0ae0f9936833
+  id: b17971cb-2fb2-4364-a415-83fd955cebc0
   head: c3d24524fd287428fda96575ebdff6fe218eb194
   branch: master
 - !ruby/object:MultiRepo::LockEntry
   name: git-multirepo-dummy-dep2
-  id: 1c69ff1d-7da4-40f6-bf79-030eb1d81e37
+  id: 51956c41-015c-431b-b59c-826672dd0609
   head: 1b8465fcd4f9e5821640bb45ad8c22c960b64517
   branch: master
