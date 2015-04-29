@@ -1,11 +1,9 @@
 ---
 - !ruby/object:MultiRepo::ConfigEntry
-  id: b17971cb-2fb2-4364-a415-83fd955cebc0
+  id: ddfc663d-0960-4349-90a7-77c6327ac6e6
   path: ../git-multirepo-dummy-dep1/
   url: git@github.com:fortinmike/git-multirepo-dummy-dep1.git
-  branch: master
 - !ruby/object:MultiRepo::ConfigEntry
-  id: 51956c41-015c-431b-b59c-826672dd0609
+  id: 7811ab29-edd3-46d1-a24a-ed81e9756ff5
   path: ../git-multirepo-dummy-dep2/
   url: git@github.com:fortinmike/git-multirepo-dummy-dep2.git
-  branch: master
